@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Microsoft\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcprov-jdk15on\1.50\be504b4901d75cbe129a178f5830e6c358ec214c\bcprov-jdk15on-1.50.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="be504b4901d75cbe129a178f5830e6c358ec214c">
+        <dex dex="D:\Archive\DroidCon1\app\build\intermediates\pre-dexed\debug\bcprov-jdk15on-1.50-f546bb37460cbda885ed9dccdb7cbb3c2b03bd1b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Microsoft\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Microsoft\Desktop\DroidCon1\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-32529951632fe60197f88481c8b34f038ed151e9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Microsoft\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.0.0\3a10b25b6820e19102e118711afe6a66c0bae123\butterknife-6.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3a10b25b6820e19102e118711afe6a66c0bae123">
+        <dex dex="D:\Archive\DroidCon1\app\build\intermediates\pre-dexed\debug\butterknife-6.0.0-4525647b711ad0d01691084de07c2599ed9ca1b9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Microsoft\Desktop\DroidCon1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Microsoft\Desktop\DroidCon1\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-099899b2822e5eb93e6a601a0b87e254388eb079.jar" />
+    </item>
+    <item
+        jar="C:\Users\Microsoft\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.7\2b8019b6249bb05d81d3a3094e468753e2b21311\slf4j-api-1.7.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2b8019b6249bb05d81d3a3094e468753e2b21311">
+        <dex dex="D:\Archive\DroidCon1\app\build\intermediates\pre-dexed\debug\slf4j-api-1.7.7-6b797e82762e8d415aa739d0c31c3c4476cab06e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Microsoft\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcpkix-jdk15on\1.50\f82f869cbf31fdb3419487dd58f4189c33ec9acd\bcpkix-jdk15on-1.50.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f82f869cbf31fdb3419487dd58f4189c33ec9acd">
+        <dex dex="D:\Archive\DroidCon1\app\build\intermediates\pre-dexed\debug\bcpkix-jdk15on-1.50-f39f44500c6a76ea96d99ae55c951354f9c1d3ae.jar" />
+    </item>
+    <item
+        jar="C:\Users\Microsoft\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.0.1\support-v4-19.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="587da9a481ffd341d2fa091704489b89845ddacd">
+        <dex dex="D:\Archive\DroidCon1\app\build\intermediates\pre-dexed\debug\support-v4-19.0.1-106f6cb9f35c2e7187564d3ee249edf96422f1d1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Microsoft\.gradle\caches\modules-2\files-2.1\net.schmizz\sshj\0.10.0\35d313db208a25189962266a9bd36553310c65f6\sshj-0.10.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="35d313db208a25189962266a9bd36553310c65f6">
+        <dex dex="D:\Archive\DroidCon1\app\build\intermediates\pre-dexed\debug\sshj-0.10.0-69b8725b03c63c8b9d8d5da41daae4f059d2cb50.jar" />
+    </item>
+    <item
+        jar="C:\Users\Microsoft\Desktop\DroidCon1\app\libs\bolts-android-1.1.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e61e3dfc57eaa5c97f9e7061db5608fc7d02d39e">
+        <dex dex="C:\Users\Microsoft\Desktop\DroidCon1\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.3-cf9f3cef140796b830eabed89a272559aa51a6eb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Microsoft\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.2.0\c0b52915a48fa91b1b94a28d4a2997bac5f524df\okio-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c0b52915a48fa91b1b94a28d4a2997bac5f524df">
+        <dex dex="D:\Archive\DroidCon1\app\build\intermediates\pre-dexed\debug\okio-1.2.0-4b16621d0d5be2f9f984c5db4e71e5365ce09df1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Microsoft\Desktop\DroidCon1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Microsoft\Desktop\DroidCon1\app\build\intermediates\pre-dexed\debug\classes-1fbf5d97c3b13a35805529a80b25d9774b4eb8f9.jar" />
+    </item>
+    <item
+        jar="D:\Archive\DroidCon1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.0.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f71a6822470c9eb659d4f4a6cb57b780b35f058b">
+        <dex dex="D:\Archive\DroidCon1\app\build\intermediates\pre-dexed\debug\classes-5c094d60bd0604a0bea4cbe8ded7aadd4e3b4a42.jar" />
+    </item>
+    <item
+        jar="C:\Users\Microsoft\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.2.0\959c454243581fdf730abfd4f4745441724bcf2c\okhttp-2.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="D:\Archive\DroidCon1\app\build\intermediates\pre-dexed\debug\okhttp-2.2.0-e29c63e9c16e40b4152e9cc62de1135bf59b0255.jar" />
+    </item>
+    <item
+        jar="D:\Archive\DroidCon1\app\libs\bolts-android-1.1.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e61e3dfc57eaa5c97f9e7061db5608fc7d02d39e">
+        <dex dex="D:\Archive\DroidCon1\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.3-5323f4e7377c14b153533dddd7db5688ad23fa00.jar" />
+    </item>
+    <item
+        jar="C:\Users\Microsoft\Desktop\DroidCon1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Microsoft\Desktop\DroidCon1\app\build\intermediates\pre-dexed\debug\classes-b0646cad309c93728e287dd6f99237af7601a3b2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Microsoft\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.2\91c20388c9a45f62b5ed8fe0502bb76ff6251fc7\bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="D:\Archive\DroidCon1\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.2-3c1bfb4ae841b6f7ce56226b2e55661aa446e418.jar" />
+    </item>
+    <item
+        jar="C:\Users\Microsoft\Desktop\DroidCon1\app\libs\Parse-1.7.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="87c45f9f66da531a65f065ee32f603c7e6db1528">
+        <dex dex="C:\Users\Microsoft\Desktop\DroidCon1\app\build\intermediates\pre-dexed\debug\Parse-1.7.1-4f2711dc211f5237923fd52f50beb6ab678806a4.jar" />
+    </item>
+    <item
+        jar="D:\Archive\DroidCon1\app\libs\Parse-1.7.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="87c45f9f66da531a65f065ee32f603c7e6db1528">
+        <dex dex="D:\Archive\DroidCon1\app\build\intermediates\pre-dexed\debug\Parse-1.7.1-fc91d2dfbb13697473a8de559495800ac596435d.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="---"
+        android:id="@+id/temperatureLabel"
+        android:textColor="@android:color/white"
+        android:textSize="150sp"
+        android:layout_below="@+id/RefreshImageView"
+        android:layout_toRightOf="@+id/iconImageView"
+        android:layout_toEndOf="@+id/iconImageView"
+        android:layout_marginTop="58dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/degreeImageView"
+        android:layout_alignTop="@+id/temperatureLabel"
+        android:layout_toRightOf="@+id/temperatureLabel"
+        android:layout_toEndOf="@+id/temperatureLabel"
+        android:src="@drawable/degree"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="........."
+        android:id="@+id/timeLabel"
+        android:layout_above="@+id/temperatureLabel"
+        android:layout_centerHorizontal="true"
+        android:textColor="#80ffffff"
+        android:layout_alignParentEnd="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Delhi , India"
+        android:id="@+id/locationLabel"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        android:layout_below="@+id/timeLabel"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iconImageView"
+        android:src="@drawable/clear_night"
+        android:layout_toStartOf="@+id/locationLabel"
+        android:layout_alignTop="@+id/locationLabel"
+        android:layout_toLeftOf="@+id/locationLabel"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temperatureLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HUMIDITY"
+                android:id="@+id/humidityLabel"
+                android:textColor="#80ffffff"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:id="@+id/humidityValue"
+                android:textColor="@android:color/white"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RAIN ?"
+                android:id="@+id/precipLabel"
+                android:textColor="#80ffffff"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="--%"
+                android:id="@+id/precipValue"
+                android:textColor="@android:color/white"
+                android:textSize="24dp"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/summaryLabel"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:textSize="18dp"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RefreshImageView"
+        android:clickable="true"
+        android:src="@drawable/refresh"
+        android:layout_toStartOf="@+id/timeLabel"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/timeLabel"
+        android:layout_alignEnd="@+id/timeLabel"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_alignBottom="@+id/RefreshImageView"
+
+        android:layout_centerHorizontal="true"/>
+
+<!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Address"
+        android:id="@+id/addressTV"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_toStartOf="@+id/locationLabel"
+        android:layout_above="@+id/summaryLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addressET"
+        android:layout_toEndOf="@+id/addressTV"
+        android:singleLine="true"
+        android:layout_above="@+id/summaryLabel"
+        android:layout_toRightOf="@+id/addressTV"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Lat/Long"
+        android:id="@+id/addressButton"
+        android:layout_toEndOf="@+id/latLongTV"
+        android:layout_toStartOf="@+id/iconImageView"
+        android:layout_alignRight="@+id/locationLabel"
+        android:layout_alignEnd="@+id/locationLabel"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/addressTV"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="latituse\"
+        android:id="@+id/latLongTV"
+        android:layout_toEndOf="@+id/addressTV"
+        android:layout_toStartOf="@+id/locationLabel"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+-->
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in "
+        android:layout_below="@+id/locationLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/back"
+        android:layout_above="@+id/summaryLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <!--
+        <item
+            android:id="@+id/logout_option"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+
+           android:title="log"/>
+    -->
+</RelativeLayout>

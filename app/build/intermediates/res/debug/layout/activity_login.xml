@@ -1,0 +1,56 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LoginActivity" >
+
+    <!-- Login form -->
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_launcher_1"
+        android:clickable="true">
+
+        <LinearLayout
+            style="@style/LoginFormContainer"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_username"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:autoText="false"
+                android:textColor="@android:color/holo_green_dark" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:imeActionId="@+id/edittext_action_login"
+                android:imeActionLabel="@string/login"
+                android:imeOptions="actionUnspecified" />
+
+            <Button
+                android:id="@+id/action_button"
+                android:layout_width="345dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:text="@string/login"
+                android:layout_weight="0.49"
+                android:background="@android:color/holo_green_dark" />
+        </LinearLayout>
+    </ScrollView>
+
+</merge><!-- From: file:/C:/Users/Microsoft/Desktop/DroidCon1/app/src/main/res/layout/activity_login.xml -->
